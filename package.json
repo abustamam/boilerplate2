@@ -192,7 +192,7 @@
   },
   "devDependencies": {
     "phantomjs": "^1.9.18",
-    "phantomjs-polyfill": "0.0.1",
+    "phantomjs-polyfill": "0.0.1"
   },
   "engines": {
     "node": "6.0.0"
