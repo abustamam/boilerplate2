@@ -18,6 +18,10 @@
                 "imports": ["react", "redbox-react"]
               }
             ]
+        }],
+        ["import", {
+          "libraryName": "antd",
+          "style": true
         }]
       ]
     }

@@ -1,4 +1,4 @@
-require('babel-polyfill');
+require('babel-polyfill')
 
 const environment = {
   development: {
@@ -7,7 +7,7 @@ const environment = {
   production: {
     isProduction: true
   }
-}[process.env.NODE_ENV || 'development'];
+}[process.env.NODE_ENV || 'development']
 
 module.exports = Object.assign({
   host: process.env.HOST || 'localhost',
@@ -15,25 +15,25 @@ module.exports = Object.assign({
   apiHost: process.env.APIHOST || 'localhost',
   apiPort: process.env.APIPORT,
   app: {
-    title: 'React Redux Example',
-    description: 'All the modern best practices in one example.',
+    title: 'Rasheed Boilerplate',
+    description: 'Boilerplate of modern best practices.',
     head: {
-      titleTemplate: 'React Redux Example: %s',
+      titleTemplate: 'Rasheed Boilerplate: %s',
       meta: [
-        {name: 'description', content: 'All the modern best practices in one example.'},
+        {name: 'description', content: 'Boilerplate of modern best practices'},
         {charset: 'utf-8'},
-        {property: 'og:site_name', content: 'React Redux Example'},
+        {property: 'og:site_name', content: 'Rasheed Boilerplate'},
         {property: 'og:image', content: 'https://react-redux.herokuapp.com/logo.jpg'},
         {property: 'og:locale', content: 'en_US'},
-        {property: 'og:title', content: 'React Redux Example'},
-        {property: 'og:description', content: 'All the modern best practices in one example.'},
+        {property: 'og:title', content: 'Rasheed Boilerplate'},
+        {property: 'og:description', content: 'Boilerplate of modern best practices'},
         {property: 'og:card', content: 'summary'},
-        {property: 'og:site', content: '@erikras'},
-        {property: 'og:creator', content: '@erikras'},
+        {property: 'og:site', content: '@abustamam'},
+        {property: 'og:creator', content: '@abustamam'},
         {property: 'og:image:width', content: '200'},
         {property: 'og:image:height', content: '200'}
       ]
     }
   },
 
-}, environment);
+}, environment)
