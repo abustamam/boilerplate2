@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 
 export default () => {
   const styles = require('./Home.scss')
-  // require the logo image both from client and servergit 
+  // require the logo image both from client and server
   const logoImage = require('./logo.png')
   return (
     <div className={styles.home}>
